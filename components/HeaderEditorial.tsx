@@ -66,12 +66,12 @@ export default function HeaderEditorial({
         <div className="text-center group cursor-pointer">
           <a href="/" className="inline-block">
             <div className="flex items-center justify-center space-x-2">
-              <span className="text-3xl sm:text-5xl font-black font-serif tracking-tight text-neutral-900 dark:text-white uppercase transition-colors group-hover:text-red-600">
-                REVISTA <span className="text-red-600 dark:text-red-500">MDU</span>
+              <span className="text-2xl sm:text-4xl md:text-5xl font-black font-serif tracking-tight text-neutral-900 dark:text-white uppercase transition-colors group-hover:text-red-600">
+                MANUAL DEL <span className="text-red-600 dark:text-red-500">UNIVERSITARIO</span>
               </span>
             </div>
             <p className="text-[10px] sm:text-xs font-bold tracking-[0.25em] text-neutral-500 dark:text-neutral-400 uppercase mt-0.5">
-              Manual del Universitario • Periodismo de Alto Rendimiento
+              Periodismo de Alto Rendimiento • Edición Digital
             </p>
           </a>
         </div>

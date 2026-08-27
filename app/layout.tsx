@@ -15,18 +15,18 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Revista MDU | Manual del Universitario - Edición Digital",
+  title: "Manual del Universitario | Edición Digital",
   description:
     "La publicación digital de referencia para la comunidad universitaria: técnicas de estudio, vida en el campus, salud mental, tecnología y finanzas estudiantiles.",
   keywords: [
-    "Revista MDU",
     "Manual del Universitario",
+    "MDU",
     "Universidad",
     "Estudiantes",
     "Técnicas de estudio",
     "Salud mental universitaria",
   ],
-  authors: [{ name: "Redacción Revista MDU" }],
+  authors: [{ name: "Redacción Manual del Universitario" }],
 };
 
 export default function RootLayout({

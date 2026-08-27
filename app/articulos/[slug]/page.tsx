@@ -60,7 +60,7 @@ export default function ArticleDetailPage({ params }: ArticlePageProps) {
           href="/"
           className="px-6 py-3 bg-red-600 text-white font-bold rounded-full hover:bg-red-700 transition-all shadow-lg"
         >
-          Volver a la Portada MDU
+          Volver a la Portada
         </Link>
       </div>
     );
@@ -229,7 +229,7 @@ export default function ArticleDetailPage({ params }: ArticlePageProps) {
             className="w-full h-full object-cover"
           />
           <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent p-4 text-xs text-neutral-300 italic text-right">
-            Fotografía por Unsplash Editorial • Revista MDU
+            Fotografía por Unsplash Editorial • Manual del Universitario
           </div>
         </div>
 

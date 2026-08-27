@@ -17,11 +17,11 @@ export default function FooterModern({ onSelectCategory }: FooterModernProps) {
           {/* Brand Col (2 cols lg) */}
           <div className="lg:col-span-2 space-y-4">
             <a href="/" className="inline-block">
-              <span className="text-3xl font-black font-serif tracking-tight text-white uppercase">
-                REVISTA <span className="text-red-500">MDU</span>
+              <span className="text-2xl font-black font-serif tracking-tight text-white uppercase">
+                MANUAL DEL <span className="text-red-500">UNIVERSITARIO</span>
               </span>
               <p className="text-[10px] font-bold tracking-[0.2em] text-neutral-400 uppercase mt-0.5">
-                Manual del Universitario
+                Edición Digital • MDU
               </p>
             </a>
 
@@ -164,7 +164,7 @@ export default function FooterModern({ onSelectCategory }: FooterModernProps) {
         {/* Bottom Copyright Row */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-neutral-500 gap-4">
           <div className="flex items-center space-x-1">
-            <span>© {new Date().getFullYear()} Revista MDU (Manual del Universitario). Todos los derechos reservados.</span>
+            <span>© {new Date().getFullYear()} Manual del Universitario. Todos los derechos reservados.</span>
           </div>
 
           <div className="flex items-center space-x-2">

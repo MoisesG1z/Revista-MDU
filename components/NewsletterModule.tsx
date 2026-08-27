@@ -28,7 +28,7 @@ export default function NewsletterModule() {
             {/* Badge */}
             <div className="inline-flex items-center space-x-2 bg-red-950/80 border border-red-500/40 text-red-200 px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider shadow-inner">
               <Sparkles className="w-3.5 h-3.5 text-red-400" />
-              <span>BOLETÍN SEMANAL MDU DIGEST</span>
+              <span>BOLETÍN SEMANAL DEL UNIVERSITARIO</span>
             </div>
 
             {/* Headline */}
