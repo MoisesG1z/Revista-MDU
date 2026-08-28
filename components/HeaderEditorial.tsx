@@ -40,7 +40,7 @@ export default function HeaderEditorial({
     <header className="sticky top-0 z-40 bg-white/95 dark:bg-neutral-900/95 backdrop-blur-md border-b border-neutral-200 dark:border-neutral-800 shadow-sm transition-colors duration-300">
       {/* Upper Main Editorial Brand Bar */}
       <div className="max-w-7xl mx-auto px-4 py-5 flex items-center justify-between">
-        {/* Left: Mobile Menu Toggle & Edition Badge */}
+        {/* Left: Mobile Menu Toggle */}
         <div className="flex items-center space-x-3">
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -53,13 +53,6 @@ export default function HeaderEditorial({
               <Menu className="w-6 h-6" />
             )}
           </button>
-          <div className="hidden sm:flex items-center space-x-2 text-xs font-semibold uppercase tracking-wider text-neutral-500 dark:text-neutral-400">
-            <span className="bg-red-100 dark:bg-red-950/60 text-red-700 dark:text-red-400 px-2 py-0.5 rounded font-mono">
-              EDICIÓN II-2026
-            </span>
-            <span className="hidden md:inline">•</span>
-            <span className="hidden md:inline font-mono">VOL. 14</span>
-          </div>
         </div>
 
         {/* Center: Editorial Logo Header */}
@@ -70,14 +63,11 @@ export default function HeaderEditorial({
                 MANUAL DEL <span className="text-red-600 dark:text-red-500">UNIVERSITARIO</span>
               </span>
             </div>
-            <p className="text-[10px] sm:text-xs font-bold tracking-[0.25em] text-neutral-500 dark:text-neutral-400 uppercase mt-0.5">
-              Periodismo de Alto Rendimiento • Edición Digital
-            </p>
           </a>
         </div>
 
-        {/* Right: Actions (Search, Reading Theme Selector, Bookmarks) */}
-        <div className="flex items-center space-x-2 sm:space-x-4">
+        {/* Right: Actions (Search, Theme Selector, UES Button, Bookmarks) */}
+        <div className="flex items-center space-x-2 sm:space-x-3">
           {/* Search Trigger */}
           <div className="relative">
             <button
@@ -147,6 +137,17 @@ export default function HeaderEditorial({
               <Coffee className="w-4 h-4" />
             </button>
           </div>
+
+          {/* Botón Circular Rojo UES */}
+          <a
+            href="https://www.ues.edu.sv/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-9 h-9 rounded-full bg-red-600 hover:bg-red-700 active:scale-95 text-white font-black text-xs flex items-center justify-center shadow-md hover:shadow-red-600/40 transition-all border border-red-500 shrink-0"
+            title="Sitio Oficial UES (Universidad de El Salvador)"
+          >
+            UES
+          </a>
 
           {/* Bookmark Badge Counter */}
           <div className="relative">

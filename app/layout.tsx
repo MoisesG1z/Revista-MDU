@@ -15,7 +15,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Manual del Universitario | Edición Digital",
+  title: "Manual del Universitario",
   description:
     "La publicación digital de referencia para la comunidad universitaria: técnicas de estudio, vida en el campus, salud mental, tecnología y finanzas estudiantiles.",
   keywords: [

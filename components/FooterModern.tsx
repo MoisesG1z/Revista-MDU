@@ -20,9 +20,6 @@ export default function FooterModern({ onSelectCategory }: FooterModernProps) {
               <span className="text-2xl font-black font-serif tracking-tight text-white uppercase">
                 MANUAL DEL <span className="text-red-500">UNIVERSITARIO</span>
               </span>
-              <p className="text-[10px] font-bold tracking-[0.2em] text-neutral-400 uppercase mt-0.5">
-                Edición Digital • MDU
-              </p>
             </a>
 
             <p className="text-xs text-neutral-400 leading-relaxed max-w-sm">
@@ -168,7 +165,7 @@ export default function FooterModern({ onSelectCategory }: FooterModernProps) {
           </div>
 
           <div className="flex items-center space-x-2">
-            <span>Diseñado con pasión por la excelencia académica</span>
+            <span>Creado 100% de Corazon por la UES</span>
             <Heart className="w-3.5 h-3.5 text-red-500 fill-red-500 inline" />
           </div>
         </div>

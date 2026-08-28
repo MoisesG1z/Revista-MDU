@@ -161,6 +161,17 @@ export default function ArticleDetailPage({ params }: ArticlePageProps) {
                 <Coffee className="w-3.5 h-3.5" />
               </button>
             </div>
+
+            {/* Botón Circular Rojo UES */}
+            <a
+              href="https://www.ues.edu.sv/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-8 h-8 rounded-full bg-red-600 hover:bg-red-700 active:scale-95 text-white font-black text-xs flex items-center justify-center shadow-md hover:shadow-red-600/40 transition-all border border-red-500 shrink-0"
+              title="Sitio Oficial UES (Universidad de El Salvador)"
+            >
+              UES
+            </a>
           </div>
         </div>
       </nav>
