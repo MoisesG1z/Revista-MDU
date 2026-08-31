@@ -55,13 +55,15 @@ export default function HeaderEditorial({
           </button>
         </div>
 
-        {/* Center: Editorial Logo Header */}
-        <div className="text-center group cursor-pointer">
-          <a href="/" className="inline-block">
-            <div className="flex items-center justify-center space-x-2">
-              <span className="text-2xl sm:text-4xl md:text-5xl font-black font-serif tracking-tight text-neutral-900 dark:text-white uppercase transition-colors group-hover:text-red-600">
-                MANUAL DEL <span className="text-red-600 dark:text-red-500">UNIVERSITARIO</span>
-              </span>
+        {/* Center: Editorial Logo Header Image */}
+        <div className="text-center cursor-pointer flex items-center justify-center py-1">
+          <a href="/" className="inline-flex items-center justify-center space-x-3 group" title="Manual del Universitario - Hijos de la Minerva">
+            <div className="relative overflow-hidden rounded-full border-2 border-red-600 shadow-lg group-hover:scale-105 group-hover:shadow-red-600/40 transition-all duration-300">
+              <img
+                src="/logo-minerva.jpg"
+                alt="Manual del Universitario - Hijos de la Minerva"
+                className="h-16 sm:h-20 md:h-24 w-16 sm:w-20 md:w-24 object-cover rounded-full"
+              />
             </div>
           </a>
         </div>

@@ -16,8 +16,13 @@ export default function FooterModern({ onSelectCategory }: FooterModernProps) {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 pb-12 border-b border-neutral-800">
           {/* Brand Col (2 cols lg) */}
           <div className="lg:col-span-2 space-y-4">
-            <a href="/" className="inline-block">
-              <span className="text-2xl font-black font-serif tracking-tight text-white uppercase">
+            <a href="/" className="inline-flex items-center space-x-3 group">
+              <img
+                src="/logo-minerva.jpg"
+                alt="Manual del Universitario"
+                className="w-10 h-10 rounded-full border border-red-500 shadow-md group-hover:scale-105 transition-transform"
+              />
+              <span className="text-xl sm:text-2xl font-black font-serif tracking-tight text-white uppercase group-hover:text-red-400 transition-colors">
                 MANUAL DEL <span className="text-red-500">UNIVERSITARIO</span>
               </span>
             </a>
